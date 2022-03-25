@@ -1,0 +1,167 @@
+.map {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  align-items: center;
+  position: relative;
+  animation: fadeIn 1s;
+  background-image: url('../assets/scroll.jpg');
+  background-size: cover;
+  border: 6px ridge #343434;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .mapcontainer {
+    height: 95%;
+    width: 55%;
+    margin-left: 20px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @media (max-width: 500px) {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .mapimg {
+      width: 95%;
+      width: 95%;
+    }
+    .location {
+      position: absolute;
+    }
+    .map1 {
+      top: 20%;
+      left: 0%;
+      width: 35%;
+      height: 22%;
+    }
+    .map2 {
+      top: 3%;
+      left: 38%;
+      width: 25%;
+      height: 40%;
+    }
+    .map3 {
+      top: 22%;
+      left: 66%;
+      width: 31%;
+      height: 20%;
+    }
+    .map4 {
+      top: 44%;
+      left: 34%;
+      width: 29%;
+      height: 10%;
+    }
+    .map5 {
+      top: 44%;
+      left: 64%;
+      width: 18%;
+      height: 13%;
+    }
+    .map6 {
+      top: 59%;
+      left: 31%;
+      width: 29%;
+      height: 36%;
+    }
+    .map7 {
+      top: 59%;
+      left: 66%;
+      width: 29%;
+      height: 36%;
+    }
+    .map8 {
+      top: 0%;
+      left: 90%;
+      width: 10%;
+      height: 10%;
+    }
+  }
+  .infocontainer {
+    background-color: rgba(0, 0, 0, 0.543);
+    width: 44%;
+    height: 100%;
+    padding: 5px;
+    color: white;
+    padding: 20px;
+    border-left: 6px ridge #343434;
+    @media (max-width: 500px) {
+      width: 100%;
+      height: 50%;
+      border-left: none;
+      padding-bottom: 60px;
+    }
+    .infocontent {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      overflow: hidden;
+      .zoneheader {
+        font-size: 30px;
+        color: red;
+        max-width: 95%;
+        margin: 0;
+      }
+      span {
+        color: yellow;
+        margin: 5px;
+        font-size: 18px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+      button {
+        margin: 5px;
+        height: 40px;
+        width: 95%;
+      }
+    }
+  }
+
+  .closebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    @media (max-width: 500px) {
+      height: 30px;
+      left: 25px;
+      bottom: 10px;
+    }
+  }
+  .leaderbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    @media (max-width: 500px) {
+      height: 30px;
+      right: 25px;
+      bottom: 10px;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

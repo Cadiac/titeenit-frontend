@@ -1,0 +1,8 @@
+# Login redirects
+[[redirects]]
+  from = "/login"
+  to = "https://api.titeenipeli.xyz/api/login"
+
+[[redirects]]
+  from = "/login/local"
+  to = "http://localhost:4000/api/login"
