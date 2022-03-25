@@ -4,6 +4,8 @@
 
 Read the postmortem: https://docs.google.com/document/d/1Yp9LTFt-slZd7y6EQcgmbF7DzFsBGKLnxCfNW1ZZiWA/edit?usp=sharing
 
+Backend repository: https://github.com/Cadiac/titeenit-backend
+
 ## Quick start
 
 ```
