@@ -1,5 +1,9 @@
 # Titeenipeli 2022 frontend
 
+<img width="1409" alt="screenshot" src="https://user-images.githubusercontent.com/6438345/159185311-ff770c9e-3958-4e2b-ac2a-31bcd5901dd3.png">
+
+Read the postmortem: https://docs.google.com/document/d/1Yp9LTFt-slZd7y6EQcgmbF7DzFsBGKLnxCfNW1ZZiWA/edit?usp=sharing
+
 ## Quick start
 
 ```
